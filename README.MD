@@ -30,7 +30,7 @@ Consult the cmake documentation for help:
 https://cmake.org/runningcmake/
 
 ### Pre-built binaries
-pre-built binaries are available in the /binaries
+Pre-built binaries are available in /binaries
 
 ### Usage
 tsp --[paramter1] [value] --[parameter2] [value2] ...
