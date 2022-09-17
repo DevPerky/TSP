@@ -16,13 +16,13 @@ struct Params {
 
     static Params fromArgs(int argc, const char **argv) {
         Params params;
-        params.generations = 1;
-        params.numPoints = 2;
+        params.generations = 100;
+        params.numPoints = 10;
         params.seed = 0;
-        params.tspParams.killFactor = 0.5f;
-        params.tspParams.mixFactor = 0.5f;
-        params.tspParams.mutationFactor = 0.5f;
-        params.tspParams.populationSize = 1;
+        params.tspParams.killFactor = 0.8f;
+        params.tspParams.mixFactor = 0.2f;
+        params.tspParams.mutationFactor = 0.2f;
+        params.tspParams.populationSize = 100;
 
         for(int i = 0; i < argc - 1; i++) {
             std::string parameter(argv[i]);
