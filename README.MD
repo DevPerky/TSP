@@ -29,6 +29,9 @@ the full command would be cmake -G "Visual studio 17 2022" -A x64 -B build.
 Consult the cmake documentation for help:
 https://cmake.org/runningcmake/
 
+### Pre-built binaries
+Pre-built binaries are available in /binaries
+
 ### Usage
 tsp --[paramter1] [value] --[parameter2] [value2] ...
 
